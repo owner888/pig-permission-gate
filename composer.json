@@ -1,0 +1,23 @@
+{
+    "name": "owner888/pig-permission-gate",
+    "description": "A permission gate for the pig coding agent: blocks rm -rf / and ~, asks before sudo, dd, git reset --hard and the like, and turns rm into a move to the Trash (or _to_delete/) so a deletion can be undone.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "keywords": ["pig", "pig-package", "permission", "safety", "trash", "bash", "coding-agent"],
+    "authors": [
+        {"name": "the developer"}
+    ],
+    "require": {
+        "php": ">=8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "PigPermissionGate\\": "src/"
+        }
+    },
+    "extra": {
+        "pig": {
+            "extensions": ["./extensions/pig-permission-gate.php"]
+        }
+    }
+}

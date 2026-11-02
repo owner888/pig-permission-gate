@@ -1,0 +1,7 @@
+pig-permission-gate
+Copyright 2026 owner888
+
+The gate began as a PHP port of the permission-gate example extension of pi
+(https://github.com/earendil-works/pi), MIT License, and has been rewritten
+since: commands are read the way the shell splits them, and rm becomes a move
+to the Trash or to _to_delete/ instead of a prompt.
